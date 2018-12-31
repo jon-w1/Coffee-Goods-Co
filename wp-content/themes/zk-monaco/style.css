@@ -1,0 +1,83 @@
+/*
+Theme Name: ZK Monaco  
+Theme URI: http://zooka.io
+Author: ZOOKA
+Author URI: http://themeforest.net/user/ZookaStudio
+Description: The 2015 theme for WordPress is a fully responsive theme that looks great on any device. Features include a front page template with its own widgets, an optional display font, styling for post formats on both index and single views, and an optional no-sidebar page template. Make it yours with a custom menu, header image, and background.
+Version: 1.4.0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: one-column, two-columns, right-sidebar, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: zk-monaco
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+/**
+ * Table of Contents
+ *
+ * 1.0 CONTENT
+	1.1. Page
+		* We made all style for blog, portfolio, archive, search page here : THEME_NAME/assets/scss/blog.scss
+	1.2. Post 
+		* We made all style for post format, post type here : THEME_NAME/assets/scss/content.scss, THEME_NAME/assets/scss/portfolio.scss
+	1.3. Comment
+		* We made all style for page/post Comment form here : THEME_NAME/assets/scss/comment.scss
+	1.4. Media 
+		* We added all style for wordpress media (like video, audio, gallery,...) here:  THEME_NAME/assets/scss/media.scss
+	1.5. Button
+		* We made all style for Button here : THEME_NAME/assets/scss/button.scss
+	1.6. Form
+		* We added all style for FORM here : THEME_NAME/assets/scss/form.scss
+	1.7. Typography
+		* We added all style for HTML tag here : THEME_NAME/assets/scss/typography.scss
+	1.8. Our VC Element
+		* All Style for our element work with VC here : THEME_NAME/assets/scss/elements.scss
+	1.9 Custom our theme layout
+		* We added some custom style for custom header layout, class suffix, page/post navigation,... here THEME_NAME/assets/scss/main.scss
+ 
+ * 2.0 - Header
+ 	* We added all style for HEADER here: THEME_NAME/assets/scss/header.scss
+
+ * 3.0 - Navigation
+ 	* We added all style for MAIN NAVITION here: THEME_NAME/assets/scss/navigation.scss
+
+ * 4.0 - Page Title Bar
+ 	* We added all style for PAGE TITLE BAR here: THEME_NAME/assets/scss/pagetitle.scss
+
+ * 5.0 - Footer
+ 	* We added all style for Footer here : THEME_NAME/assets/scss/footer.scss
+
+ * 6.0 - Sidebar
+ 	* We added all style for Sidebar here : THEME_NAME/assets/scss/sidebar.scss
+
+ * 7.0 - Widgets
+ 	* We added all style for Widgets here : THEME_NAME/assets/scss/widgets.scss
+
+ * 8.0 - WooCommerce
+ 	* We added all style for WooCoomerce here : THEME_NAME/assets/scss/woocomerce.scss
+
+ * 9.0 - Customs Bootstap
+ 	* We added some custom style for Bootstap here : THEME_NAME/assets/scss/customs.scss
+ 	
+ * 10.0 - Extensions
+	* We added custom style for 3rd extensions/plugin we used in this theme (like: Revolution slider, Soundcloud,...) here : THEME_NAME/assets/scss/extensions.scss
+
+ * 11.0 Mixins
+ 	* We added all mixins function used in this theme here:  THEME_NAME/assets/scss/mixins.scss
+
+ * 12.0 Variations
+ 	* We added all VARIATIONS used in this theme here:  THEME_NAME/assets/scss/variations.scss
+
+ * 13.0 - Media Queries
+ *	  All style located in THEME_NAME/assets/scss/reponsive.scss
+ *    13.1 - Mobile Large
+ *    13.2 - Tablet Small
+ *    13.3 - Tablet Large
+ *    13.4 - Desktop Small
+ *    13.5 - Desktop Medium
+ *    13.6 - Desktop Large
+ *    13.7 - Desktop X-Large
+ */

@@ -1,0 +1,27 @@
+@media screen and (min-width: 1200px) {
+  body .cs-boxed {
+    margin: auto;
+    width: 1200px;
+  }
+}
+
+@media(max-width: 767px){
+	.no-container{
+		//padding-left: 15px;
+		//padding-right: 15px;
+	}
+	#cms-content-wrapper{
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+
+
+		/* add space between each columns */
+		[class*='col-'],
+		[class^='col-']{
+			+ [class*='col-'],
+			  [class^='col-']{
+			  	margin-top: 30px;
+			  }
+		}
+	}
+}
